@@ -2,11 +2,11 @@
 
 ## The official CNH Circle K Mobile App for the district event Fall Training Conference 2020-2021
 Created By: *The Mobile App Team of CNH CKI's Tech Committee* (November 2020)
-- Albert Dang     *Tech Lead*           [github](https://github.com/AlbertDang46)
-- Vincent Hoang   *Software Developer*  [github](https://github.com/Ricecrackerz)          
-- Jatnael Montes  *Software Developer*  [github](https://github.com/ifelsejet)           
-- Brian Nguyen    *Software Developer*  [github](https://github.com/branraisin)
-- Terrecnce Diaz  *Advisor*             [github](https://github.com/terrencejames)
+- Albert Dang     *Tech Lead*           ([github](https://github.com/AlbertDang46))
+- Vincent Hoang   *Software Developer*  ([github](https://github.com/Ricecrackerz))          
+- Jatnael Montes  *Software Developer*  ([github](https://github.com/ifelsejet))           
+- Brian Nguyen    *Software Developer*  ([github](https://github.com/branraisin))
+- Terrecnce Diaz  *Advisor*             ([github](https://github.com/terrencejames))
             
 ### What is Fall Training Conference?
 "The Fall Training Conference Committee plans and coordinates the District’s first large scale district-wide event of the year. Fall Training Conference is a three-day, two-night event held at Old Oak Ranch in which members of the CNH District come together to learn more about Circle K International, meet members from around the district, and develop as members and leaders within Circle K International. New and returning members alike have the opportunity to really see the impact our clubs make in this organization while also creating lifelong memories with one another. We hope you will join us in the mountains of Sonora, CA from November 1-3, 2019, as we immerse ourselves in the MYSTERY of a lifetime and celebrate the start of a new term!"
