@@ -30,11 +30,11 @@ This was recorded with an iPhone 12 Pro.
 *Please note that the feature "Edit My Events" is disabled in the IOS version*
 
 ### Built With
--[React Native](https://reactnative.dev/)
--[Node.js](https://nodejs.org/en/)
--[npm](https://www.npmjs.com/)
--[Expo](https://expo.io/)
--[Google Firebase](https://firebase.google.com/)
+- [React Native](https://reactnative.dev/)
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+- [Expo](https://expo.io/)
+- [Google Firebase](https://firebase.google.com/)
 
 ### Installation
 The app is currently avaliable on both IOS App store and Android Google Play store until 03/01/2021
