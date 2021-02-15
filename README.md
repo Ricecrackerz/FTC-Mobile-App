@@ -1,88 +1,59 @@
-# CNH-Mobile-App
+# FTC-Mobile-App
 
-## The official CNH Circle K Mobile App
+## The official CNH Circle K Mobile App for the district event Fall Training Conference 2020-2021
+Created By: *The Mobile App Team of CNH CKI's Tech Committee*
+- Albert Dang     *Tech Lead*           [github](https://github.com/AlbertDang46)
+- Vincent Hoang   *Software Developer*  [github](https://github.com/Ricecrackerz)          
+- Jatnael Montes  *Software Developer*  [github](https://github.com/ifelsejet)           
+- Brian Nguyen    *Software Developer*  [github](https://github.com/branraisin)
+- Terrecnce Diaz  *Advisor*             [github](https://github.com/terrencejames)
+            
+### What is Fall Training Conference?
+"The Fall Training Conference Committee plans and coordinates the District’s first large scale district-wide event of the year. Fall Training Conference is a three-day, two-night event held at Old Oak Ranch in which members of the CNH District come together to learn more about Circle K International, meet members from around the district, and develop as members and leaders within Circle K International. New and returning members alike have the opportunity to really see the impact our clubs make in this organization while also creating lifelong memories with one another. We hope you will join us in the mountains of Sonora, CA from November 1-3, 2019, as we immerse ourselves in the MYSTERY of a lifetime and celebrate the start of a new term!"
 
-### Code Structure
-- App.js
-  - Sets up the navigation bar and its pages (home page, schedule page, map page)
-  - Maps out the app info pages and navigation order/layout
-  - Sets up all resources used in the app
-  - Contains function to cache image, video, font resources
-  - First caches splash page image, then displays splash page once image is cached
-  - When splash image is cached, the app checks if there is a newer update of the app in the background
-    - If so, the app downloads and caches the update in the background
-      -When the home page is displayed, a modal will appear and ask the user if they would like to reload the app to use the updated app. They can accept or deny this request
-    - If not, nothing happens
-  - While the splash page is displayed, the app will cache the necessary images, fonts, other resources in the background
-  - Once the necessary resources are cached, the app will display the homepage and the update modal if a newer update is found
+Learn more at the [FTC Page in the CNH CKI's Official Website](http://www.cnhcirclek.org/committees/fall-training-conference-committee/)
 
-- components
-  - InfoHeader.js
-    - A styled header component for topics in a page
-  - InfoParagraph.js
-    - A styled text paragraph component
-  - InfoTitle.js
-    - A styled title component for pages
-  - PlainButton.js
-    - A styled button
-  - PlainText.js
-    - A styled text line
-  - TemplateInfoPage.js
-    - Template page for information pages
+### About the App
+This app helps the event creators and participants stay connected all in one place. The app provides a hub to see recent announcements and shoutouts, updated schedules, reources (documentation), and to send responses to workshop hosts. The app also has a secret admin area for event hosts to send announcements and shoutouts. The app utilizes Google's Firebase to send and recieve announcements, shoutouts, and responses from both the participants and event hosts.
 
-- pages
-    - faq 
-      - FAQActivitiesPage.js
-        - Displays activities in the event
-      - FAQFinancePage.js
-        - Displays financial info for the event
-      - FAQMiscPage.js
-        - Displays miscellaneous info for the event
-      - FAQNavigationPage.js
-        - Displays navigation instructions for the event
-      - FAQRegistrationPage.js
-        - Displays registration info for the event
-      - FAQSAAPage.js
-        - Displays Sergeant at Arms info for the event 
-      - FAQTimePage.js
-        - Displays date and time info for the event
-  - leadership
-      - CampfireSkitsPage.js
-        - Displays skit info for the event
-      - DjPage.js
-        - Displays DJ/music info for the event
-      - MediaPage.js  
-        - Displays media team info for the event
-      - SAAPage.js
-        - Displays more Sergeant at Arms info for the event
-      - TeamCaptainPage.js
-        - Displays team captain info for the event
-      - TechPage.js
-        - Displays a tech team easter egg
-      - WorkshopsPage.js
-        - Displays workshop info for the event
-  - news
-      - ContactsPage.js
-        - Displays event team contact info
-      - OfficeHoursPage.js
-        - Displays office hour times
-      - ComingSoonPage.js
-        - A page that shows “coming soon”
-      - HomePage.js
-        - Main navigation page that shows pages for “FAQ”, “Leadership Opportunities”, and “Find out more”. Links to event website, shows preview video of event, and title/logo of event
-      - InfoPage.js (NOT CURRENTLY IN USE)
-        - Displays general need-to-know information on event
-      - MapPage.js
-          - Displays map of event venue
-      - OnboardingPage.js (NOT CURRENTLY IN USE)
-          - Asks what type of member user is. Homepage layout changes based on user type
-      - ScheduleDetailPage.js
-          - Displays detailed info of a particular event
-      - SchedulePage.js
-        - Displays schedule of events for each day of the event
 
-- app.json
-  - Contains name of app, expo version, expo app name, app version, iOS/Android versions, app description
+### Demo
 
-- package.json
-  - Contains expo scripts, code dependencies, and developer dependencies
+<img src='https://github.com/Ricecrackerz/FTC-Mobile-App/blob/master/ezgif.com-gif-maker%20(1).gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+The video demo showcases the app's (in this order): splash screen, announcements, admin hub, schedule, shoutouts, resources, and responses.
+
+This gif was made using: [Ezgif](https://ezgif.com/)
+
+This was recorded with an iPhone 12 Pro.
+
+*Please note that the feature "Edit My Events" is disabled in the IOS version*
+
+### Built With
+[React Native](https://reactnative.dev/)
+[Node.js](https://nodejs.org/en/)
+[npm](https://www.npmjs.com/)
+[Expo](https://expo.io/)
+[Google Firebase](https://firebase.google.com/)
+
+### Installation
+The app is currently avaliable on both IOS App store and Android Google Play store until 03/01/2021
+
+### Notes
+This github repo was forked from the [original](https://github.com/CNHCircleK/CNH-Mobile-App). Feel free to check out the official repo of the app, but we change our app seasonally and based on upcomming events and the next successors of the team.
+
+### License
+Copyright [2020] [CNH-CKI Tech Committee]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
