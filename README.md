@@ -1,7 +1,7 @@
 # FTC-Mobile-App
 
 ## The official CNH Circle K Mobile App for the district event Fall Training Conference 2020-2021
-Created By: *The Mobile App Team of CNH CKI's Tech Committee*
+Created By: *The Mobile App Team of CNH CKI's Tech Committee* (November 2020)
 - Albert Dang     *Tech Lead*           [github](https://github.com/AlbertDang46)
 - Vincent Hoang   *Software Developer*  [github](https://github.com/Ricecrackerz)          
 - Jatnael Montes  *Software Developer*  [github](https://github.com/ifelsejet)           
