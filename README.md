@@ -1,4 +1,4 @@
-# FTC-Mobile-App
+# FTC-Mobile-App (CNH Solstice)
 
 ## The official CNH Circle K Mobile App for the district event Fall Training Conference 2020-2021
 Created By: *The Mobile App Team of CNH CKI's Tech Committee* (November 2020)
